@@ -13,4 +13,9 @@ function cobra(){
         fill(255);
         rect(this.x,this.y,tamanho,tamanho);
     }
+
+    this.dir = function(x,y){
+        this.xvelocidade = x;
+        this.yvelocidade = y;
+    }
 }
